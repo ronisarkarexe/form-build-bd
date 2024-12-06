@@ -34,7 +34,7 @@ const ComprehensionView = ({
     );
   };
 
-  const handleOptionSelect = (questionNumber: number, option: string) => {
+  const handleOptionSelect = (option: string) => {
     if (selectedOptions.has(option)) {
       setSelectedOptions((prev) => {
         const newSelected = new Set(prev);
@@ -91,9 +91,7 @@ const ComprehensionView = ({
                         type="checkbox"
                         id={`option-${question.questionNumber}-${idx}`}
                         checked={selectedOptions.has(option)}
-                        onChange={() =>
-                          handleOptionSelect(question.questionNumber, option)
-                        }
+                        onChange={() => handleOptionSelect(option)}
                         className="mr-2 h-5 w-5 text-blue-600 border-gray-300 rounded focus:ring-2 focus:ring-blue-500"
                       />
                       <label
