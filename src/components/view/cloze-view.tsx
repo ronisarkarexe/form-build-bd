@@ -1,4 +1,3 @@
-/* eslint-disable @typescript-eslint/no-unused-vars */
 import React, { useRef } from "react";
 
 type ClozeViewProps = {
@@ -12,8 +11,6 @@ type ClozeViewProps = {
 
 const ClozeComponent = ({
   section,
-  category,
-  sentence,
   preview,
   selectedWords,
   point,

@@ -1,5 +1,5 @@
 /* eslint-disable @typescript-eslint/no-unused-vars */
-import React, { useState } from "react";
+import { useState } from "react";
 import { FaChevronDown, FaChevronUp } from "react-icons/fa6";
 
 type ComprehensionViewProps = {
@@ -18,8 +18,6 @@ type ComprehensionViewProps = {
 
 const ComprehensionView = ({
   section,
-  sentence,
-  point,
   title,
   comprehensionQuestions,
 }: ComprehensionViewProps) => {
