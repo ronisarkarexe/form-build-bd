@@ -2,8 +2,6 @@ import React, { useRef } from "react";
 
 type ClozeViewProps = {
   section: string;
-  category: string;
-  sentence: string;
   preview: string;
   selectedWords: { word: string; gapLength: number }[];
   point: string;

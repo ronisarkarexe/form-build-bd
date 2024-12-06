@@ -1,11 +1,8 @@
-/* eslint-disable @typescript-eslint/no-unused-vars */
 import { useState } from "react";
 import { FaChevronDown, FaChevronUp } from "react-icons/fa6";
 
 type ComprehensionViewProps = {
   section: string;
-  sentence: string;
-  point: string;
   title: string;
   comprehensionQuestions: {
     questionNumber: number;

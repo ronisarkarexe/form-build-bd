@@ -158,8 +158,6 @@ const FromBuilderComponent = () => {
               <div>
                 <ClozeComponent
                   section="Section 2"
-                  category="Categorize the flowing"
-                  sentence={sentence}
                   preview={preview}
                   selectedWords={selectedWords}
                   point={categoryPoint}
@@ -168,9 +166,7 @@ const FromBuilderComponent = () => {
               <div>
                 <ComprehensionView
                   section="Section 3"
-                  sentence={sentence}
                   title={comprehensionTitle}
-                  point={categoryPoint}
                   comprehensionQuestions={comprehensionQuestions}
                 />
               </div>

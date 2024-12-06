@@ -121,17 +121,13 @@ const FromViewComponent = () => {
               />
               <ClozeComponent
                 section={item.clozeData.section}
-                category={item.clozeData.category}
-                sentence={item.clozeData.sentence}
                 preview={item.clozeData.preview}
                 selectedWords={item.clozeData.selectedWords}
                 point={item.clozeData.point}
               />
               <ComprehensionView
                 section={item.comprehensionData.section}
-                sentence={item.comprehensionData.category}
                 title={item.comprehensionData.title}
-                point={item.comprehensionData.point}
                 comprehensionQuestions={
                   item.comprehensionData.comprehensionQuestions
                 }
