@@ -8,7 +8,7 @@ const HeroComponent = () => {
                 href="/builder"
                 className="text-lg font-semibold bg-gradient-to-r from-purple-500 to-pink-500 text-white p-2 rounded-md shadow-md hover:scale-105 transition-transform duration-200 px-10 py-4"
               >
-                Click Build Your
+                Click Builder
               </a>
             </span>
           </div>
