@@ -85,7 +85,7 @@ const FromViewComponent = () => {
   }, []);
 
   if (loading) {
-    return <div>Loading...</div>;
+    return <div className="text-center py-5">Loading...</div>;
   }
 
   if (!data || !data.length) {
